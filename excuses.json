@@ -1,0 +1,104 @@
+{
+	"excuses": {
+		"lazy": [
+			"My brain is tired. I'm going to work on something easier for the rest of the day.",
+			"{xbut} I just had a burrito for lunch and now I can't move",
+			"{xbut} but my favourite {musical style} band is livestreaming a concert now.",
+			"I was going to do it but {person} said he would do it.",
+			"It's not working? The client must have been hacked.",
+			"It's not working? Maybe somebody forgot to pay our hosting company.",
+			"I'm waiting for {person} to finish his code before I can start.",
+			"I forgot to commit the code that fixes that.",
+			"I can't fix that. That code was written by the last guy.",
+			"I'm not familiar with it so I didn't fix it in case I made it worse."
+		],
+		"frustrated": [
+			"{xbut} my schedule blew up.",
+			"I was told to stop working on that when something important came up.",
+			"It's not working now but it worked on my machine last night.",
+			"I did a quick fix last time but {component} broke when we rebooted.",
+			"I can't get my code to pass {test}",
+			"I accidentally get reset my changes. I'm rewriting them now.",
+			"Our hardware is too slow to cope with demand.",
+			"It's going slower than I expected. The third party documentation is wrong.",
+			"It's going slower than I expected. The existing design makes it difficult to do the right thing.",
+			"I haven't had the chance to run that code yet."
+		],
+		"resentful": [
+			"I didn't get your email. It must have been marked as spam.",
+			"I was going to try what you said but {person} said it wouldn't work.",
+			"I didn't start yet. You never do the stuff I ask you to, either!",
+			"Wait, was that due today? I thought you said next week!",
+			"The 3rd party API is not responding.",
+			"The problem seems to be with our legacy software.",
+			"I broke {component} deliberately to do some testing.",
+			"It's not a code problem. Our users need more training.",
+			"It's a third party application issue."
+		],
+		"depressed": [
+			"I'm not familiar with it so I didn't fix it in case I made it worse.",
+			"{xbut} I just heard that {person} is in the hospital.",
+			"{xbut} I just heard that {person} is throwing up.",
+			"{xbut} I've been having really bad {symptom}.",
+			"I didn't get to that yet. I was talking to {person} about my {symptom}"
+		]
+	},
+	"substitutions": {
+		"test": [
+			"E S Lint",
+			"J S Hint",
+			"The pre-commit hooks",
+			"The unit tests",
+			"The integration tests",
+			"The end to end tests",
+			"John's tests"
+		],
+		"component": [
+			"the system",
+			"the code",
+			"the loader",
+			"my brain",
+			"the encapsulation",
+			"the security layer"
+		],
+		"xbut": [
+			"I'd be done but",
+			"I'd get to that but",
+			"I was going to try what you said but",
+			"I was going to do it but"
+		],
+		"musical style": [
+			"J-pop",
+			"bluegrass",
+			"polka",
+			"square dancing",
+			"box-stomping",
+			"techno",
+			"bass and drum"		
+		],
+		"symptom": [
+			"diarrhea",
+			"tingly fingers",
+			"existential dread",
+			"smallpox",
+			"kleptomania",
+			"excessive demotivation",
+			"code anxieties"
+		],
+		"person": [
+			"my dog",
+			"my pet canary",
+			"my life partner",
+			"my excusebot",
+			"my fish",
+			"my roommate",
+			"my fifth grade English teacher",
+			"JK Rowling",
+			"Bill from accounting",
+			"the marketing department",
+			"our CEO",
+			"Sally",
+			"my therapist"
+		]
+	}
+}
